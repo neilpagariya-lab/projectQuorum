@@ -36,7 +36,7 @@ export function LandingScreen() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 1 }}
         >
-          Project <span className="text-[#f5b21a]">Quorum</span>
+          pick<span className="text-[#f5b21a]">flicks</span>
         </motion.h1>
 
         {/* Headline */}
