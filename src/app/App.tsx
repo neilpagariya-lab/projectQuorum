@@ -12,7 +12,7 @@ const pageTransition = {
   initial: { opacity: 0, scale: 0.96 },
   animate: { opacity: 1, scale: 1 },
   exit: { opacity: 0, scale: 1.04 },
-  transition: { duration: 0.35, ease: [0.4, 0, 0.2, 1] },
+  transition: { duration: 0.35, ease: [0.4, 0, 0.2, 1] as const },
 };
 
 export default function App() {
